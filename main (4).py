@@ -10,7 +10,7 @@ async def button_handler(update: Update, context):
         pass
 
 # 🔒 Список разрешённых пользователей (замени ID на реальные)
-ALLOWED_USERS = {.................................}  # Замени на свои ID
+ALLOWED_USERS = {209309861}  # Замени на свои ID
 
 # 🔐 Функция проверки доступа
 async def check_access(update: Update) -> bool:
@@ -59,66 +59,41 @@ def main_menu():
 
 # Данные (пока вручную)
 dispatchers = {
-    "🚛 Диспетчер name": ["Водитель name", "Водитель name", .......],
-    "🚚 Диспетчер name": ["Водитель name", "Водитель name", .......],
-    "🚌 Диспетчер name": ["Водитель name", "Водитель name", .......],
-    "🚋 Диспетчер name": ["Водитель name", "Водитель name", .......],
-    "🏍 Диспетчер name": ["Водитель name", "Водитель name", .......],
-    "🚂 Диспетчер name": ["Водитель name", "Водитель name", .......],
-    "🚀 Диспетчер name": ["Водитель name", "Водитель name", .......],
-    "✈ Диспетчер name": ["Водитель name", "Водитель name", .......]
+    "🚛 Диспетчер David": ["Водитель Chris", "Водитель James"]
 
 }
 
 drivers_info = {
-    "Водитель name": (
-        "📌 Driver Name: name \n"
-        "📞 Phone Number: ..... \n"
-        "🚛 Truck Number: ... \n"
-        "🚂 Trailer Number: ... \n"
-        "🔑 VIN:..... \n" 
-        "⚓Ramps: .... \n"
-        "⚖ Weight: ... \n"
-        "🅱 Owner: ...."
+    "Водитель Chris": (
+        "📌 Driver Name: Chris \n"
+        "📞 Phone Number: 32245534534 \n"
+        "🚛 Truck Number: 23 \n"
+        "🚂 Trailer Number: 11 \n"
+        "🔑 VIN:245354353 \n" 
+        "⚓Ramps: da \n"
+        "⚖ Weight: da \n"
+        "🅱 Owner: da"
     ),
-    "Водитель name": (
-        "📌 Driver Name: name \n"
-        "📞 Phone Number: ..... \n"
-        "🚛 Truck Number: ... \n"
-        "🚂 Trailer Number: ... \n"
-        "🔑 VIN:..... \n"
-        "⚓Ramps: .... \n"
-        "⚖ Weight: ... \n"
-        "🅱 Owner: ...."
-    ),
-    "Водитель name": (
-        "📌 Driver Name: name \n"
-        "📞 Phone Number: ..... \n"
-        "🚛 Truck Number: ... \n"
-        "🚂 Trailer Number: ... \n"
-        "🔑 VIN:..... \n"
-        "⚓Ramps: .... \n"
-        "⚖ Weight: ... \n"
-        "🅱 Owner: ...."
+    "Водитель James": (
+        "📌 Driver Name: James \n"
+        "📞 Phone Number: 437439743 \n"
+        "🚛 Truck Number:34343 \n"
+        "🚂 Trailer Number:3434342 \n"
+        "🔑 VIN:989774208320 \n"
+        "⚓Ramps: da \n"
+        "⚖ Weight: 3232 \n"
+        "🅱 Owner: da"
     ),
 }
 # URL для фотографий и файлов
 drivers_files = {
-    "Водитель name": {
-        "photo": "сылка на гугл диск",
-        "files": "сылка на гугл диск"
+    "Водитель Chris": {
+        "photo": "https://www.google.com/",
+        "files": "https://www.google.com/"
     },
-        "Водитель name": {
-        "photo": "сылка на гугл диск",
-        "files": "сылка на гугл диск"
-    },
-    "Водитель name": {
-        "photo": "сылка на гугл диск",
-        "files": "сылка на гугл диск"
-    },
-    "Водитель name": {
-        "photo": "сылка на гугл диск",
-        "files": "сылка на гугл диск"
+        "Водитель James": {
+        "photo": "https://www.google.com/",
+        "files": "https://www.google.com/"
     },
 }
 
@@ -190,7 +165,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 # Создание приложения
-app = Application.builder().token("Вставь Свой токен").build()
+app = Application.builder().token("8101558494:AAFNh4jqCdeQFgCihkOJEpLfhJ1GE8CSupg").build()
 
 # Добавление обработчиков
 app.add_handler(CallbackQueryHandler(show_dispatchers, pattern="^dispatchers$"))
