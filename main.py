@@ -59,19 +59,20 @@ def main_menu():
 
 # Данные (пока вручную)
 dispatchers = {
-    "🚛 Диспетчер David": ["Водитель Chris", "Водитель James"]
+    "🚛 Диспетчер David Miller": ["Водитель Bivol Igor", "Водитель Cojocaru Victor", "Водитель Tupitcyn Anton","Водитель Joseph Garry","Водитель Feriani Mohamed","Водитель Yaser Ahmad",
+                                 "Водитель Starohcotelnii Alexandr"]
 
 }
 
 drivers_info = {
-    "Водитель Chris": (
-        "📌 Driver Name: Chris \n"
-        "📞 Phone Number: 32245534534 \n"
-        "🚛 Truck Number: 23 \n"
-        "🚂 Trailer Number: 11 \n"
+    "Водитель Bivol Igor": (
+        "📌 Driver Name: Bivol Igor \n"
+        "📞 Phone Number: 704-454-8656 \n"
+        "🚛 Truck Number: 02"
+        "🚂 Trailer Number: 165146 \n"
         "🔑 VIN:245354353 \n" 
-        "⚓Ramps: da \n"
-        "⚖ Weight: da \n"
+        "⚓Trailer Type: R \n"
+        "⚖ Weight:44.000 \n"
         "🅱 Owner: da"
     ),
     "Водитель James": (
