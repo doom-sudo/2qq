@@ -59,7 +59,7 @@ def main_menu():
 
 # Данные (пока вручную)
 dispatchers = {
-    "🚛 Диспетчер David Miller": ["Водитель Bivol Igor", "Водитель Cojocaru Victor", "Водитель Tupitcyn Anton","Водитель Joseph Garry","Водитель Feriani Mohamed","Водитель Yaser Ahmad"]                                 "Водитель Starohcotelnii Alexandr"]
+    "🚛 Диспетчер David Miller": ["Водитель Bivol Igor", "Водитель Cojocaru Victor", "Водитель Tupitcyn Anton", "Водитель Joseph Garry", "Водитель Feriani Mohamed", "Водитель Yaser Ahmad"]                                 "Водитель Starohcotelnii Alexandr"]
 
 }
 
@@ -84,7 +84,7 @@ drivers_info = {
         "⚖ Weight: 44000 \n"
         "🅱 Owner: No"
     ),
-      "Водитель Tupitcyn Anton": (
+    "Водитель Tupitcyn Anton": (
         "📌 Driver Name: Tupitcyn Anton \n"
         "📞 Phone Number: 7027712752 \n"
         "🚛 Truck Number:304 \n"
@@ -93,14 +93,61 @@ drivers_info = {
         "⚓Trailer Type: R \n"
         "⚖ Weight: 44000 \n"
         "🅱 Owner: No"
+    ),
+    "Водитель Joseph Garry": (
+        "📌 Driver Name:  \n"
+        "📞 Phone Number:  \n"
+        "🚛 Truck Number: \n"
+        "🚂 Trailer Number: \n"
+        "🔑 VIN: \n"
+        "⚓Trailer Type:  \n"
+        "⚖ Weight:  \n"
+        "🅱 Owner: "
+    ),
+    "Водитель Feriani Mohamed": (
+        "📌 Driver Name:  \n"
+        "📞 Phone Number:  \n"
+        "🚛 Truck Number: \n"
+        "🚂 Trailer Number: \n"
+        "🔑 VIN: \n"
+        "⚓Trailer Type: \n"
+        "⚖ Weight:  \n"
+        "🅱 Owner: "
+    ),
+    "Водитель Yaser Ahmad": (
+        "📌 Driver Name:  \n"
+        "📞 Phone Number:  \n"
+        "🚛 Truck Number: \n"
+        "🚂 Trailer Number: \n"
+        "🔑 VIN: \n"
+        "⚓Trailer Type:  \n"
+        "⚖ Weight:  \n"
+        "🅱 Owner: "
+    ),
 }
 # URL для фотографий и файлов
 drivers_files = {
-    "Водитель Chris": {
+    "Водитель Bivol Igor": {
         "photo": "https://www.google.com/",
         "files": "https://www.google.com/"
     },
-        "Водитель James": {
+    "Водитель Cojocaru Victor": {
+        "photo": "https://www.google.com/",
+        "files": "https://www.google.com/"
+    },
+    "Водитель Tupitcyn Anton": {
+        "photo": "https://www.google.com/",
+        "files": "https://www.google.com/"
+    },
+    "Водитель Joseph Garry": {
+        "photo": "https://www.google.com/",
+        "files": "https://www.google.com/"
+    },
+    "Водитель Feriani Mohamed": {
+        "photo": "https://www.google.com/",
+        "files": "https://www.google.com/"
+    },
+    "Водитель Yaser Ahmad": {
         "photo": "https://www.google.com/",
         "files": "https://www.google.com/"
     },
