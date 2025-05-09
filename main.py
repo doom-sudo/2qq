@@ -59,7 +59,7 @@ def main_menu():
 
 # Данные (пока вручную)
 dispatchers = {
-    "🚛 Диспетчер David Miller": ["Водитель Bivol Igor", "Водитель Cojocaru Victor", "Водитель Tupitcyn Anton","Водитель Joseph Garry","Водитель Feriani Mohamed","Водитель Yaser Ahmad",]                                 "Водитель Starohcotelnii Alexandr"]
+    "🚛 Диспетчер David Miller": ["Водитель Bivol Igor", "Водитель Cojocaru Victor", "Водитель Tupitcyn Anton","Водитель Joseph Garry","Водитель Feriani Mohamed","Водитель Yaser Ahmad"]                                 "Водитель Starohcotelnii Alexandr"]
 
 }
 
