@@ -66,24 +66,33 @@ dispatchers = {
 drivers_info = {
     "Водитель Bivol Igor": (
         "📌 Driver Name: Bivol Igor \n"
-        "📞 Phone Number: 704-454-8656 \n"
+        "📞 Phone Number: 7044548656 \n"
         "🚛 Truck Number: 02"
         "🚂 Trailer Number: 165146 \n"
-        "🔑 VIN:245354353 \n" 
+        "🔑 VIN:3AKJHHDR5KSKG4295 \n" 
         "⚓Trailer Type: R \n"
-        "⚖ Weight:44.000 \n"
+        "⚖ Weight:44000 \n"
         "🅱 Owner: da"
     ),
-    "Водитель James": (
-        "📌 Driver Name: James \n"
-        "📞 Phone Number: 437439743 \n"
-        "🚛 Truck Number:34343 \n"
-        "🚂 Trailer Number:3434342 \n"
-        "🔑 VIN:989774208320 \n"
-        "⚓Ramps: da \n"
-        "⚖ Weight: 3232 \n"
-        "🅱 Owner: da"
+    "Водитель Cojocaru Victor": (
+        "📌 Driver Name: Cojocaru Victor \n"
+        "📞 Phone Number: 9162566741 \n"
+        "🚛 Truck Number:206 \n"
+        "🚂 Trailer Number:R205 \n"
+        "🔑 VIN:3AKJHHDR7PSUL9674 \n"
+        "⚓Trailer Type: R \n"
+        "⚖ Weight: 44000 \n"
+        "🅱 Owner: No"
     ),
+      "Водитель Tupitcyn Anton": (
+        "📌 Driver Name: Tupitcyn Anton \n"
+        "📞 Phone Number: 7027712752 \n"
+        "🚛 Truck Number:304 \n"
+        "🚂 Trailer Number:R303 \n"
+        "🔑 VIN:3AKJHHDR4RSVD7768 \n"
+        "⚓Trailer Type: R \n"
+        "⚖ Weight: 44000 \n"
+        "🅱 Owner: No"
 }
 # URL для фотографий и файлов
 drivers_files = {
